@@ -2,7 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One');
 
 body {
-  background-color: lightblue; /* Or use a HEX code like #f0f0f0 */
+  background: repeating-linear-gradient(45deg,
+      /* Angle of the stripes */
+      #00122b,
+      /* Color 1 */
+      #000f24 20px,
+      /* Color 1 stop */
+      #ffffff 10px,
+      /* Color 2 start */
+      #000b1b 5px
+      /* Color 2 stop */
+    );
   font-family: 'Fredoka', sans-serif;
 }
 
