@@ -5,3 +5,7 @@ body {
   background-color: lightblue; /* Or use a HEX code like #f0f0f0 */
   font-family: 'Fredoka', sans-serif;
 }
+
+.h1 {
+  font-family: 'Fredoka One', sans-serif;
+}
